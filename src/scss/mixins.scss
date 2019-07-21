@@ -1,0 +1,12 @@
+@mixin centeredText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+//@mixin waterBrushStroke {
+//  background-image: url("../../images/yellow-watercolor-brush.png");
+//  background-repeat: no-repeat;
+//  padding: 8px 0;
+//}

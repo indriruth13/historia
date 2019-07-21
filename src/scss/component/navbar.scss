@@ -1,0 +1,26 @@
+.nav-wrapper {
+  background-color: $pink;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  color: $pink-light;
+  z-index: 1;
+  .brand-logo {
+    padding-left: 20px;
+  }
+  ul {
+    div {
+      display: flex;
+    }
+    a:hover {
+      background-color: $yellow-light;
+    }
+    li {
+      padding: 0 20px;
+    }
+  }
+}
+

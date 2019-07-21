@@ -1,0 +1,30 @@
+.homepage-background-image {
+  height: -webkit-fill-available;
+}
+.homepage-container {
+  margin: -24px 0;
+}
+.homepage-content {
+  @include centeredText;
+  .brand-tagline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $pink-light;
+    .brand-logo {
+      font-size: 100px;
+    }
+    span {
+      font-size: 35px;
+      margin: 10px;
+      font-family: 'Rochester', cursive;
+    }
+    hr {
+      background-color: $pink-light;
+      width: 100%;
+      height: 2px;
+      border: none;
+    }
+  }
+}
+

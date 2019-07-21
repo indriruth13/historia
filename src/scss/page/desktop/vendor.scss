@@ -1,0 +1,19 @@
+.category {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+  justify-content: center;
+  a {
+    padding: 0 36px;
+    &:not(:first-of-type){
+      border-left: 1px solid $text;
+    }
+  }
+  &__list-item-container {
+    display: flex;
+    justify-content: center;
+  }
+  &__list-item {
+    padding: 0 36px;
+  }
+}

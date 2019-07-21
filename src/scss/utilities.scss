@@ -1,0 +1,40 @@
+body {
+  margin: 48px 0 0 0;
+  color: $text;
+  font-size: $text-size;
+}
+
+.container {
+  padding: 24px 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, div {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin: 10px;
+}
+
+h1 {
+  font-size: $text-size-large;
+}
+
+.brand-logo {
+  font-family: 'PT Serif', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  li {
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+img {
+  width: 100%;
+}
