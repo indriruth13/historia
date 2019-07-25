@@ -2,7 +2,6 @@
   "name": "historia",
   "version": "1.0.0",
   "description": "official website of historia",
-  "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open",
     "build": "webpack --config webpack.config.js -p"
@@ -25,7 +24,6 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.0.0",
-    "html-loader": "^0.5.5",
     "node-sass": "^4.12.0",
     "sass": "^1.22.2",
     "sass-loader": "^7.1.0",
