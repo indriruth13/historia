@@ -9,11 +9,61 @@
       border-left: 1px solid $text;
     }
   }
+  a:hover {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  &__items {
+    margin: 0 50px;
+  }
   &__list-item-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
   &__list-item {
-    padding: 0 36px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    text-decoration: none;
+    color: $text;
+    border-radius: 10px;
+    background-color: $pink-light;
+    padding: $padding-large;
+    height: 270px;
+    img {
+      height: 120px;
+      padding-bottom: $padding;
+    }
+    h3 {margin:0;}
+    hr {
+      width: 100%;
+      border-width: 1px;
+      color: #B6B3B3;
+      margin-bottom: 10px;
+    }
+    article {
+      margin-top: 5px;
+      width : 85%;
+      @include multiLineEllipsis($lineHeight: 1.4em, $lineCount: 4);
+    }
+    b {
+      margin: 3px 0;
+    }
+    .redirect-button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      span {
+        margin-left: 3px;
+      }
+      span:hover {
+        font-weight: bold;
+      }
+    }
+  }
+  &__list-item:hover {
+    background-color: $yellow-light;
   }
 }
