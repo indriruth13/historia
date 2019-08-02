@@ -16,7 +16,9 @@
       display: flex;
     }
     a:hover {
-      background-color: $yellow-light;
+      color: $white;
+      font-weight: bold;
+      cursor: pointer;
     }
     li {
       padding: 0 20px;

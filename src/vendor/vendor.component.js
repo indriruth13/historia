@@ -1,10 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-const ProductItem = ({ category, name }) => (
-    <div className="category__list-item">
-        {name}
-    </div>
+const ProductItem = ({ name, description,url,priceRange }) => (
+    <a href="#" className="category__list-item">
+        <img src={url} alt="Images"/>
+        <hr/>
+        <h3>{name}</h3>
+        <article>{description}</article>
+        <b>{`Starts from Rp${priceRange}`}</b>
+        <div className="redirect-button">
+            <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
+            <span>See Detail</span>
+        </div>
+    </a>
 );
 
 const ProductItems = ({ state: { products, displayCategory } }) => (
@@ -14,11 +21,14 @@ const ProductItems = ({ state: { products, displayCategory } }) => (
                 ({ category }) =>
                     displayCategory === category || displayCategory === "All"
             )
-            .map(({ category, name }) => (
+            .map(({ category, name, description, url,priceRange }) => (
                 <ProductItem
                     key={`ProductItems-${name}`}
                     category={category}
+                    url={url}
                     name={name}
+                    description={description}
+                    priceRange={priceRange}
                 />
             ))}
     </div>
@@ -72,13 +82,24 @@ class Main extends React.Component {
 
 // data
 const PRODUCTS = [
-    { category: "Wedding", name: "Football" },
-    { category: "Wedding", name: "Baseball" },
-    { category: "Wedding", name: "Basketball" },
-    { category: "Birthday", name: "iPod Touch" },
-    { category: "Birthday", name: "iPhone 5" },
-    { category: "Other", name: "Nexus 7" },
-    { category: "Other", name: "Holiday" }
+    { category: "Wedding", name: "Mardhiyah Florist", url: "https://picsum.photos/100",
+        description: "We provide the most beautiful flowers to splash the most important day of your life, import and local flowers. ",
+        priceRange:"1.000.000" },
+    { category: "Wedding", name: "Neng Florist", url: "https://picsum.photos/100",
+        description: "Arranged with love and passion, composed with quality fresh flowers, we're here to make your day the most memorable day",
+        priceRange:"500.000" },
+    { category: "Birthday", name: "Historia Event Organizer", url: "https://picsum.photos/100",
+        description: "Say no more to messy busy party, we gathered best people to organize your parties professionaly. Let us take care of the mess, enjoy your parties!",
+        priceRange:"1.500.000" },
+    { category: "Birthday", name: "Yes Event Organizer", url: "https://picsum.photos/100",
+        description: "Say yes to parties, cause we are here to help you organized your parties. With various theme, and best consultant in town, we create the best party in town.",
+        priceRange:"1.000.000" },
+    { category: "Other", name: "Yes Event Organizer", url: "https://picsum.photos/100",
+        description: "Say yes to parties, cause we are here to help you organized your parties. With various theme, and best consultant in town, we create the best party in town.",
+        priceRange:"3.000.000" },
+    { category: "Other", name: "Historia Event Organizer", url: "https://picsum.photos/100",
+        description: "Say no more to messy busy party, we gathered best people to organize your parties professionaly. Let us take care of the mess, enjoy your parties!",
+        priceRange:"500.000" },
 ];
 
 // get unique category items
