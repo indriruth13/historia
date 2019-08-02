@@ -18,14 +18,14 @@
   }
   &__list-item-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
   }
   &__list-item {
     margin: 20px;
     display: flex;
     flex-direction: column;
-    width: 18%;
+    width: 18.5%;
     text-decoration: none;
     color: $text;
     border-radius: 10px;

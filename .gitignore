@@ -6,6 +6,7 @@
 *.exe
 *.o
 *.so
+*.xml
 
 # Packages #
 ############
@@ -35,3 +36,4 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+.idea
