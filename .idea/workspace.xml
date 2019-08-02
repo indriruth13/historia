@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0702bc0-6403-4d01-83fb-b0a888942223" name="Default Changelist" comment="Historia Website">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/0c/12/0b6793d374110c866582cd9ea1f3a13d2c79b293b485678b413f20b1896c835725248b991493656aab48d62a00f5d04d2dcc81241a0ac087735737e1ca59" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/2c/94/091f4626df42946a8d800fb297d7c0644f0521a645310566e0010bbc1ac79d91303ecad78aaacbb688e6bd3d6b2d3e1c5aa2cfbb8dd03c744f6f7401d425" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/46/02/2932e76a20bc30efbc5b47abba68feb0f4aac873b19caaa02fa417d89e45b572cf9936d383bda03189b8f441b07d48d5139fb8a48f38f10fcf8cb2ccde13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/7d/74/e3ac6e426d70a61284c80e95797bed23e66d35e95262053602e236790ae9e00778e9eb61039a6468330d834a0a1808c7de939a11c2f4a8b9a012fdca037f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/e5/04/29270f4be8d7193dcc5f1ed06c2fd509cfec36b006202686df3e18fe074ac69eaf5159ce888957db6e1040a6c452e43fbbf57fdbf8569d770efad7cb6608" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/f1/ab/fcb67b8f29ce69a2025a774570c4f6a1eed0f3d9db426d1a62dac84048a63e935e26fb4b7dc0da0a571a38128ed79002ca82dee9931b8b6b44c4795a9408" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/fa/2a/a9273bd6675a112045e5fa03aed1b39228f0583f0c2f103a9217b32bd225d34e64cdb1f64342bb9bd4a9dcd321091598828ab422e91e2f5f8c149c5b0365" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/00/26/348d08208a6efbc8ef172ed8e7acc7b29a0385aea83e3e2e132c988dbafe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/24/83/00821b8483c9dc1905e427ba45eebff32cd56acdb3013fd330d46824a9f8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/25/c1/05e93b167f9a385a2ee0cee23a7777573969f86d6c1cfcfbc27f86dcfa0b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/64/2d/ce743999e5c2638418de7bb0773857189aa50496c1305da6fabaf137d805" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/6f/8c/9b877aef28eb2a1d9ce738c6929d223cb728521d51d886b31174e3be352d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/8d/f6/9a454eb3d5a3999551423f2738da901515d4a65e388bb2ddf67476e90a51" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/cd/ef/da638029e98e23e9181579cba457e5e15976e510c3e7c77bcf8cb4979f90" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/home.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/home.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/page/desktop/vendor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/page/desktop/vendor.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="e0702bc0-6403-4d01-83fb-b0a888942223" name="Default Changelist" comment="Historia Website" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vendor/vendor.component.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1343">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="true" current-in-tab="false">
         <entry file="file://E:/historia/historia/src/scss/utilities.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,38 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+            <state relative-caret-position="-374">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.babelrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/home/home.component.js">
+        <entry file="file://E:/historia/historia/src/vendor/vendor.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -108,19 +60,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/page/desktop/vendor.scss">
+        <entry file="file://E:/historia/historia/src/component/navbar/navbar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="408">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,6 +88,48 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/historia/historia/src/home/home.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/historia/historia/historia.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/historia/historia/src/scss/page/desktop/home.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/historia/historia/src/component/navbar/navbar.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -284,11 +272,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563702208815</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Historia Website">
+      <created>1564733417094</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564733417095</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80247000" />
+    <option name="totallyTimeSpent" value="80356000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,8 +312,8 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.76928896" visible="true" weight="0.24731183" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.23071104" side_tool="true" visible="true" weight="0.24731183" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.76928896" visible="true" weight="0.22734255" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.23071104" side_tool="true" visible="true" weight="0.22734255" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49924356" weight="0.32872504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -381,7 +376,7 @@
     </entry>
     <entry file="file://E:/historia/historia/src/vendor/vendor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="323">
           <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -533,9 +528,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml" />
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -583,7 +576,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="-374">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
