@@ -2,12 +2,6 @@ import React from 'react';
 import '../../scss/historia.scss';
 
 export default class navBar extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            isActive: "active"
-        }
-    }
     render() {
         return (
             <nav>
