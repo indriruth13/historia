@@ -1,26 +1,32 @@
 .homepage-container {
-  margin-top: -74px;
-}
-.homepage-content {
-  @include centeredText;
-  .brand-tagline {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: $pink-light;
-    .brand-logo {
-      font-size: 100px;
-    }
-    span {
-      font-size: 35px;
-      margin: 10px;
-      font-family: 'Great Vibes', cursive;
-    }
-    hr {
-      background-color: $pink-light;
-      width: 100%;
-      height: 2px;
-      border: none;
+  margin-top: -45px;
+  .homepage-content {
+    background-image: url("https://res.cloudinary.com/historiacloud/image/upload/v1565237012/backgrounds/homepage-background_ok0g8k.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    &__text-content {
+      @include centeredText;
+      .brand-tagline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $pink-light;
+        .brand-logo {
+          font-size: 100px;
+        }
+        span {
+          font-size: 35px;
+          margin: 10px;
+          font-family: 'Great Vibes', cursive;
+        }
+        hr {
+          background-color: $pink-light;
+          width: 100%;
+          height: 2px;
+          border: none;
+        }
+      }
     }
   }
 }

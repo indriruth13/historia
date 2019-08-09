@@ -35,15 +35,12 @@ module.exports = {
                         options: { sourceMap: true }},
                     { loader : "css-loader",
                         options: { sourceMap: true }},
-                    { loader : "sass-loader",
-                        options: { sourceMap: true }}
+                    { loader : "sass-loader"}
                 ]
             },
             {
                 test: /\.(gif|svg|jpg|png)$/,
-                use : [
-                    {loader : "file-loader"},
-                ]
+                loader : "file-loader",
             }
         ]
     },

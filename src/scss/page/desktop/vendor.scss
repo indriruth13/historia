@@ -12,6 +12,7 @@
   a:hover {
     font-weight: bold;
     cursor: pointer;
+    color: $orange;
   }
   &__items {
     margin: 0 50px;
@@ -60,10 +61,12 @@
       }
       span:hover {
         font-weight: bold;
+        cursor: pointer;
       }
     }
   }
   &__list-item:hover {
-    background-color: $yellow-light;
+    background-color: $orange;
+    cursor: pointer;
   }
 }

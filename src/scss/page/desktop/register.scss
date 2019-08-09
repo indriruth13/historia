@@ -1,0 +1,117 @@
+.register {
+  &__container {
+    display: flex;
+    padding: 100px;
+    margin: 0 auto;
+    &__content {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      box-shadow: 20px 20px 10px $pink-light;
+    }
+    &__content-left {
+      background: $white;
+      min-height: 60vh;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      .text-content {
+        padding: 70px;
+        h1 {
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          text-align: center;
+          width: 100%;
+          display: block;
+        }
+        input[type=text], input[type=email] {
+          -webkit-transition: all 0.30s ease-in-out;
+          -moz-transition: all 0.30s ease-in-out;
+          -ms-transition: all 0.30s ease-in-out;
+          -o-transition: all 0.30s ease-in-out;
+          outline: none;
+          border: 1px solid $grey;
+        }
+
+        input[type=text]:focus, input[type=email]:focus {
+          box-shadow: 0 0 5px $pink-light;
+          border: 1px solid $orange;
+        }
+        .form-group {
+          position: relative;
+        }
+        .form-control {
+          width: 97.5%;
+          height: 35px;
+          padding: 5px;
+          margin: 10px 0;
+          border-width: 1px;
+          border-radius: 10px;
+        }
+        .submit-button {
+          width: 100%;
+          height: 40px;
+          background-color: $orange;
+          color: $white;
+          border-color: transparent;
+          font-weight: bold;
+          margin: 10px 0;
+          border-radius: 10px;
+        }
+        .submit-button:hover {
+          background-color: $pink;
+          cursor: pointer;
+          color: $text;
+        }
+        .focus-input {
+          position: absolute;
+          display: block;
+          width: calc(100% + 2px);
+          height: calc(100% + 2px);
+          top: -1px;
+          left: -1px;
+          pointer-events: none;
+          border: 1px solid $pink-light;
+          border-radius: 10px;
+          visibility: hidden;
+          opacity: 0;
+          transition: all 0.4s;
+        }
+        &__bottom {
+          a {
+            text-decoration: none;
+            color: $orange;
+            font-weight: bold;
+            margin-left: 5px;
+          }
+          a:hover {
+            cursor: pointer;
+            color: $text;
+          }
+        }
+      }
+    }
+    &__content-right {
+      background-image: url("http://res.cloudinary.com/historiacloud/image/upload/b_rgb:ff9e80,o_25/v1565237011/backgrounds/login-page-image_c1dff5.jpg");
+      background-repeat: no-repeat;
+      min-height: 60vh;
+      background-size: cover;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      .texts {
+        @include halfCenteredTextRight;
+        color: $white;
+        text-align: right;
+        h1 {
+          font-size: 40px;
+          margin-right: 0;
+        }
+        span {
+          font-size: 36px;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+}

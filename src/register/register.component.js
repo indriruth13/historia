@@ -1,10 +1,13 @@
 import React from 'react'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import Login from "../login/login.component";
 
-class Content extends React.Component {
+export default class Register extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: '',
+            firstName:'',
+            lastName:'',
             email:''
         };
 
@@ -15,42 +18,60 @@ class Content extends React.Component {
     handleInputChange(event) {
         const target = event.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
-        const name = target.name;
+        const firstName = target.firstName
+        const lastName = target.lastName
 
         this.setState({
-            [name]: value
+            [firstName]: value,
+            [lastName]: value
         });
-        console.log('Change detected. State updated' + name + ' = ' + value);
+        console.log('Change detected. State updated' + firstName + ' and ' + lastName + ' = ' + value);
     }
 
     handleSubmit(event) {
-        alert('A form was submitted: ' + this.state.name + ' // ' + this.state.email);
+        alert('A form was submitted: ' + this.state.firstName + ' and ' + this.state.lastName + ' // ' + this.state.email);
         event.preventDefault();
     }
 
     render() {
         return (
-            <div>
-                <form onSubmit={this.handleSubmit} >
-                    <div className="form-group">
-                        <label for="nameInput">Name</label>
-                        <input type="text" name="name" value={this.state.name} onChange={this.handleChange} className="form-control" id="nameInput" placeholder="Name" />
+            <div className="register__container">
+                <div className="register__container__content">
+                    <div className="register__container__content-left">
+                        <div className="text-content">
+                            <h1>Register</h1>
+                            <form onSubmit={this.handleSubmit}>
+                                <div className="form-group">
+                                    <input type="text" name="name" value={this.state.firstName} onChange={this.handleChange}
+                                           className="form-control" id="nameInput" placeholder="First Name"/>
+                                </div>
+                                <div className="form-group">
+                                    <input type="text" name="name" value={this.state.lastName} onChange={this.handleChange}
+                                           className="form-control" id="nameInput" placeholder="Last Name"/>
+                                </div>
+                                <div className="form-group">
+                                    <input name="email" type="email" value={this.state.email} onChange={this.handleChange}
+                                           className="form-control" id="emailInput" placeholder="Email Address"/>
+                                </div>
+                                <input type="submit" value="Submit" className="submit-button"/>
+                            </form>
+                            <div className="text-content__bottom">
+                                <span>Already Have An Account?</span>
+                                <Router>
+                                    <Link to="/login"> Sign In</Link>
+                                    <Route path="/login" component={Login}/>
+                                </Router>
+                            </div>
+                        </div>
                     </div>
-                    <div className="form-group">
-                        <label for="emailInput">Email</label>
-                        <input name="email" type="email" value={this.state.email} onChange={this.handleChange} className="form-control" id="emailInput" placeholder="email@domain.com" />
+                    <div className="register__container__content-right">
+                        <div className="texts">
+                            <span>Create your own</span>
+                            <h1>precious moment with us!</h1>
+                        </div>
                     </div>
-                    <input type="submit" value="Submit" className="btn btn-primary" />
-                </form>
+                </div>
             </div>
         )
     }
 }
-
-const Register = () => {
-    return (
-        <Content/>
-    )
-}
-
-export { Register }

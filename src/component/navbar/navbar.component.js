@@ -48,8 +48,8 @@ function menuItems() {
                 </a>
             </li>
             <li>
-                <a onClick={() => this.navigateTo("/")}>
-                    Login
+                <a onClick={() => this.navigateTo("/login")}>
+                    <i className="fa fa-user"></i>
                 </a>
             </li>
         </div>
