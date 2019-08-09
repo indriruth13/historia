@@ -27,21 +27,22 @@ export default class HomeRoot extends React.Component {
 
     render() {
         return (
-        <div className="container homepage-container">
-            <img className="homepage-background-image" src={"../src/images/homepage-background.jpg"} alt="Homepage Background Image"/>
+        <div className="homepage-container">
             <div className="homepage-content">
-                <div className="brand-tagline">
-                    <h1 className="brand-logo">
-                        Historia
-                    </h1>
-                    <hr/>
-                    <span>Create Your Own Precious Moment</span>
+                <div className="homepage-content__text-content">
+                    <div className="brand-tagline">
+                        <h1 className="brand-logo">
+                            Historia
+                        </h1>
+                        <hr/>
+                        <span>Create Your Own Precious Moment</span>
+                    </div>
+                    <ReactSearchBox
+                        placeholder = "Let us help you..."
+                        value = "search"
+                        data={this.data}
+                    />
                 </div>
-                <ReactSearchBox
-                    placeholder = "Let us help you..."
-                    value = "search"
-                    data={this.data}
-                />
             </div>
         </div>
         )
